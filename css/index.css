@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    height: 100%;
+}
+
+.container {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url('../resources/cutted.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.name {
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.work-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.interests-container{
+    height: 100vh;
+    min-height: 100%;
+    background-image: url('../resources/cutted.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.interests-content {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 6fr 6fr;
+    height: 50%;
+}
+
+.interests-content> div {
+    position: relative; 
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    min-height: 100%;
+    background-image: url('../resources/cutted.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin:0;
+    /* padding: 10px; */
+}
+
+.about-me-text {
+    flex-direction: column;
+    width: 40%;
+}
+
+.about-me-text>h2 {
+    margin-bottom: 20px;
+}
+
+.about-me-text-nkua{
+    margin-top: 10px;
+}
+
+.profile-photo{
+    height: 40%;
+    width: auto;
+    border-radius: 30%;
+    border: 2px solid black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
+    margin-left: 3rem;
+}
+
+.contact-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    min-height: 100%;
+    background-image: url('../resources/cutted.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;    
+}
+
+.contact-me-title{
+    margin-bottom: 10px;
+}
+
+.projects {
+    margin-bottom: 150px;
+}
+
+.icon {
+   font-size: 4rem;
+}
+
+.social-media{
+    margin: 20px;
+}
+
+.social-media>ul {
+    list-style: none;
+}
+
+.social-media li {
+    display: flex;
+    align-items: center; 
+}
+
+.social-media li .icon {
+    margin-right: 8px; 
+}
+
+.social-media li a {
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+
